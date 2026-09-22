@@ -62,6 +62,14 @@
 
             #endregion
 
+            #region Question 6
+
+            //int genereNumber = 1;
+            //Genre genere = (Genre)genereNumber; // Cast the integer to the Genre enum
+            //Console.WriteLine(genere);
+
+            #endregion
+
         }
     }   
 }

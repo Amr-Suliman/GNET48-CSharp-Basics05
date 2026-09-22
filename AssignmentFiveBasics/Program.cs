@@ -52,7 +52,15 @@
             // Print the book's genre
             //Console.WriteLine(book.BookGenre);
 
-            #endregion  
+            #endregion
+
+            #region Question 5
+
+            //Console.WriteLine((int)Genre.Fiction); // Output: 0
+            //Console.WriteLine((int)Genre.NonFiction); // Output: 1
+            //Console.WriteLine((int)Genre.Science); // Output: 2
+
+            #endregion
 
         }
     }   

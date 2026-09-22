@@ -39,6 +39,21 @@
             //Console.WriteLine(book.TItle);
 
             #endregion
+
+            #region Question 4
+
+            // Create an object from the Book class
+            //Book book = new Book();
+
+            // Assign Genre.Science to the BookGenre property
+            // BookGenre is of type Genre, so it accepts values from the Genre enum
+            //book.BookGenre = Genre.Science;
+
+            // Print the book's genre
+            //Console.WriteLine(book.BookGenre);
+
+            #endregion  
+
         }
-    }
+    }   
 }

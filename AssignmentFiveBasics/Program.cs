@@ -16,6 +16,20 @@
 
             #endregion
 
+            #region Question 2
+
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesInStock);
+
+            // internal members are accessible within the same project (assembly).
+            // Since Book and Program are in the same project,
+            // copiesInStock can be accessed from Main.
+
+            // Output:
+            // 5
+
+            #endregion
+
         }
     }
 }

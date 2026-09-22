@@ -77,6 +77,14 @@
 
             #endregion
 
+            #region Question 8
+
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(genre); // Output: Science
+
+            #endregion
+
         }
     }   
 }

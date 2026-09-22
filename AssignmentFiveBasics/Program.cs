@@ -70,6 +70,13 @@
 
             #endregion
 
+            #region Question 7
+
+            //Genre genre = Genre.Fiction;
+            //Console.WriteLine(genre.ToString());
+
+            #endregion
+
         }
     }   
 }

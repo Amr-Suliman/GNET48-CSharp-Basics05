@@ -16,6 +16,75 @@
 
             #endregion
 
+            #region Question 2
+
+            //Book book = new Book();
+            //Console.WriteLine(book.copiesInStock);
+
+            // internal members are accessible within the same project (assembly).
+            // Since Book and Program are in the same project,
+            // copiesInStock can be accessed from Main.
+
+            // Output:
+            // 5
+
+            #endregion
+
+            #region Question 3
+
+            //Book book = new Book();
+
+            //book.TItle = "C# Programming";
+
+            //Console.WriteLine(book.TItle);
+
+            #endregion
+
+            #region Question 4
+
+            // Create an object from the Book class
+            //Book book = new Book();
+
+            // Assign Genre.Science to the BookGenre property
+            // BookGenre is of type Genre, so it accepts values from the Genre enum
+            //book.BookGenre = Genre.Science;
+
+            // Print the book's genre
+            //Console.WriteLine(book.BookGenre);
+
+            #endregion
+
+            #region Question 5
+
+            //Console.WriteLine((int)Genre.Fiction); // Output: 0
+            //Console.WriteLine((int)Genre.NonFiction); // Output: 1
+            //Console.WriteLine((int)Genre.Science); // Output: 2
+
+            #endregion
+
+            #region Question 6
+
+            //int genereNumber = 1;
+            //Genre genere = (Genre)genereNumber; // Cast the integer to the Genre enum
+            //Console.WriteLine(genere);
+
+            #endregion
+
+            #region Question 7
+
+            //Genre genre = Genre.Fiction;
+            //Console.WriteLine(genre.ToString());
+
+            #endregion
+
+            #region Question 8
+
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(genre); // Output: Science
+
+            #endregion
+
         }
-    }
+    }   
 }
